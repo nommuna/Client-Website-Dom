@@ -1,0 +1,94 @@
+html, body. div{
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
+}
+
+@media screen and (min-device-width: 1880px) {
+    .picture{
+        position: relative;
+        left: 10% !important;
+    }
+
+
+}
+.grid-item { width: 500px; }
+
+.container-fluid{
+  padding: 0;
+}
+
+.title {
+  position: relative;
+  top: 50px;
+  font-family: "adobe-garamond-pro";
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 4px; }
+
+i {
+  padding: 4px; }
+
+
+
+.picture {
+  position: relative;
+  top: 50px;
+  width: 100%;
+  left: 5%;
+
+}
+
+.navbar {
+  border-radius: 0;
+  font-family: "adobe-garamond-pro";
+  font-weight: 400;
+  letter-spacing: 5px; }
+
+@media (min-width: 768px) {
+  .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top; }
+
+  .navbar .navbar-collapse {
+    text-align: center; } }
+.navbar-new {
+  background-color: #fff;
+  border-color: #fff;
+  position: relative;
+  top: 60px; }
+
+.navbar-new .navbar-brand,
+.navbar-new .navbar-brand:hover,
+.navbar-new .navbar-brand:focus {
+  color: #000; }
+
+.navbar-new .navbar-nav > li > a {
+  color: #000; }
+
+.navbar-new .navbar-nav > li > a:hover,
+.navbar-new .navbar-nav > li > a:focus {
+  background-color: #fff;
+  color: #95022B; }
+
+.navbar-new .navbar-nav > .active > a,
+.navbar-new .navbar-nav > .active > a:hover,
+.navbar-new .navbar-nav > .active > a:focus {
+  color: #01BAEF;
+  background-color: #fff; }
+
+.navbar-new .navbar-text {
+  color: #000; }
+
+.navbar-new .navbar-toggle {
+  border-color: #fff; }
+
+.navbar-new .navbar-toggle:hover,
+.navbar-new .navbar-toggle:focus {
+  background-color: #fff; }
+
+.navbar-new .navbar-toggle .icon-bar {
+  background-color: #000; }
+
+/*# sourceMappingURL=photo.css.map */

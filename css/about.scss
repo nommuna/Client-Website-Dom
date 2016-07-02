@@ -1,0 +1,128 @@
+$font-type: 'Open Sans', sans-serif;
+$font-type2: "adobe-garamond-pro";
+
+.title{
+  position: relative;
+  top: 50px;
+  font-family: $font-type2;
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 4px;
+}
+
+.middlesection{
+  position: relative;
+  top: 80px;
+  font-family: $font-type2;
+}
+
+i{
+  padding: 4px;
+}
+
+
+
+.navbar {
+    border-radius: 0;
+    font-family: $font-type2;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+
+.navbar-new {
+    background-color: #fff;
+    border-color: #fff;
+    position: relative;
+    top: 60px;
+
+}
+
+
+.navbar-new .navbar-brand,
+.navbar-new .navbar-brand:hover,
+.navbar-new .navbar-brand:focus {
+    color: #000;
+}
+
+.navbar-new .navbar-nav > li > a {
+    color: #000;
+
+
+}
+
+.navbar-new .navbar-nav > li > a:hover,
+.navbar-new .navbar-nav > li > a:focus {
+    background-color: #fff;
+    color: #95022B;
+
+}
+
+.navbar-new .navbar-nav > .active > a,
+.navbar-new .navbar-nav > .active > a:hover,
+.navbar-new .navbar-nav > .active > a:focus {
+    color: #01BAEF;
+    background-color: #fff;
+
+}
+
+.navbar-new .navbar-text {
+    color: #000;
+
+}
+
+.navbar-new .navbar-toggle {
+    border-color: #fff;
+
+}
+
+.navbar-new .navbar-toggle:hover,
+.navbar-new .navbar-toggle:focus {
+    background-color: #fff;
+
+}
+
+.navbar-new .navbar-toggle .icon-bar {
+    background-color: #000;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: relative;
+  top: 350px;
+
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+
+.container .text-muted {
+  margin: 20px 0;
+}
