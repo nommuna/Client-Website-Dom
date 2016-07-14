@@ -1,6 +1,8 @@
 # Client-Website-Dom
 A static website for a client to showcase his photography and videography skills. Still in Development.
 
+Demo: http://dominicrayt.github.io/
+
 Tools used
 
 1. Bootstrap 
