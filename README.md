@@ -1,5 +1,5 @@
 # Client-Website-Dom
-A static website for a client to showcase his photography and videography skills. Still in Development.
+A static website for a client to showcase his photography and videography skills. 
 
 Demo: http://dominicrayt.github.io/
 
